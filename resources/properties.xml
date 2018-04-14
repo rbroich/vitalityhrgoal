@@ -1,0 +1,25 @@
+<resources>
+	<properties>
+		<property id="goal_prop" type="number">0</property>
+	</properties>
+
+	<strings>
+		<string id="goal_title">Heart Rate Goal</string>
+		<string id="goal_opt0">100 points: HR>60% for 30min+</string>
+		<string id="goal_opt1">200 points: HR>70% for 30min+</string>
+		<string id="goal_opt2">300 points: HR>70% for 60min+</string>
+		<string id="goal_opt3">300 points: HR>80% for 30min+</string>
+	</strings>
+
+	<settings>
+		<setting propertyKey="@Properties.goal_prop"
+			title="@Strings.goal_title">
+			<settingConfig type="list">
+				<listEntry value="0">@Strings.goal_opt0</listEntry>
+				<listEntry value="1">@Strings.goal_opt1</listEntry>
+				<listEntry value="2">@Strings.goal_opt2</listEntry>
+				<listEntry value="3">@Strings.goal_opt3</listEntry>
+			</settingConfig>
+		</setting>
+	</settings>
+</resources>

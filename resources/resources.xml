@@ -1,0 +1,5 @@
+<resources>
+	<string id="AppName">VitalityHRGoal</string>
+
+	<bitmap id="LauncherIcon" filename="launcher_icon.png" />
+</resources>
